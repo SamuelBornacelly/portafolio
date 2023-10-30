@@ -1,0 +1,78 @@
+
+/*! Inicio Animación Fog */
+@keyframes fog {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2); 
+  }
+}
+/*! Final Animación Fog */
+
+/*! Inicio Animación Glitch */
+
+@keyframes glitch {
+  0% {
+    text-shadow: 0 0 rgba(var(--color_4)),
+                 0 0 rgba(var(--color_5));
+  }
+  50% {
+    text-shadow: -0.2em 0 rgba(var(--color_4)),
+                 0.2em 0 rgba(var(--color_5));
+  }
+  100% {
+    text-shadow: 0 0 rgba(var(--color_4)),
+                 0 0 rgba(var(--color_5));
+  }
+}
+
+/*! Final Animación Glitch */
+
+/*! Inicio Animación Contact me */
+
+@keyframes contact_me {
+  0% {
+    /* text-shadow: 0px 0px 0px #000; */
+    background-color: rgba(0, 4, 239, 0.5);
+    box-shadow: 0 0 0px rgba(0, 4, 239, 0.5),
+                0 0 5px rgba(0, 4, 239, 0.5),
+                0 0 25px rgba(0, 4, 239, 0.5),
+                0 0 50px rgba(0, 4, 239, 0.5);
+  }
+  50% {
+    /* text-shadow: 4px 4px 2px #000; */
+    background-color: rgba(0, 4, 239, 1);
+    box-shadow: 0 0 0px rgba(0, 4, 239, 1),
+                0 0 5px rgba(0, 4, 239, 1),
+                0 0 25px rgba(0, 4, 239, 1),
+                0 0 50px rgba(0, 4, 239, 1);
+  }
+  100% {
+    /* text-shadow: 0px 0px 0px #000; */
+    background-color: rgba(0, 4, 239, 0.5);
+    box-shadow: 0 0 0px rgba(0, 4, 239, 0.5),
+                0 0 5px rgba(0, 4, 239, 0.5),
+                0 0 25px rgba(0, 4, 239, 0.5),
+                0 0 50px rgba(0, 4, 239, 0.5);
+  }
+}
+
+/*! Inicio Animación Contact me */
+
+
+/*! Inicio Animación Scroll down */
+
+@keyframes scrollDown {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*! Inicio Animación Scroll down */
